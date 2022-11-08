@@ -17,8 +17,7 @@ include_once("../../globals.php");
 <a href="<?php echo $GLOBALS['webroot']?>/controller.php?prescription&edit&id=&pid=<?php echo $pid?>"  target='RxRight' class="css_button" onclick="top.restoreSession()">
 <span><?php xl('Add','e');?></span></a>
 <a href="../summary/demographics.php" class="css_button" onclick="top.restoreSession()">
-<span>Back To Patient</span>
-</a>
+<span>Back To Patient</span></a>
 </td>
 </tr>
 </table>
